@@ -4,7 +4,7 @@
 
 * Write to user output
 * Use Looping / Repetition structures
-* Use recursion 
+* Write recursive methods
 * Choose between recursion and iteration effectively
 
 ##Summary 
