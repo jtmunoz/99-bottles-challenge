@@ -1,4 +1,4 @@
-require_relative 'bottle_song'
+require_relative 'bottle_song_lyrics'
 
-song_lyrics = bottle_song(99)
+song_lyrics = bottle_song_lyrics(99)
 puts song_lyrics
