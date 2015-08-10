@@ -13,6 +13,9 @@ Take one down, pass it around, 96 bottles of beer on the wall!
 
 ... and so on...
 
+2 bottles of beer on the wall, 2 bottles of beer.
+Take one down, pass it around, 1 bottle of beer on the wall!
+
 1 bottle of beer on the wall, 1 bottle of beer.
 Take one down, pass it around, no more bottles of beer on the wall!
 ```
@@ -38,15 +41,14 @@ Let's define the body of our `bottle_song_lyrics` method.  The method takes as i
 How can we know that our method is operating as we expect?  Do we have tests?
 
 
-###Release 1 : Refactor
+### Release 1: Refactor
+Now that we have working code, it's time to refactor and DRY it up.  Consider the following:
 
-Now that you have working code, it's time to refactor and DRY it up.  Consider the following:
+* Are there lots of special cases in the code?  Can we isolate any special cases by creating new helper methods?
+* Did we pay attention to the fact that the last two verses end differently than the others: "1 bottle of beer on the wall" and "no more bottles of beer on the wall," respectively?  If not, can we modify our code to handle those cases without making the code a nest of conditionals?
 
-* Are there lots of special cases in my code?  Can I isolate those special cases by creating new helper methods?
-* Did I pay attention to the fact that the last two stanzas contain "1 bottle of beer" and "no more bottles of beer," respectively?
-* If not, can I modify my code to handle those cases without making the code a rat's nest of conditionals?
+What other improvements can we make? Let's try to find at least three.
 
-What other improvements can you make? Find at least 3!
 
 ###Release 2 :  Sing it, recursively (Optional)
 
