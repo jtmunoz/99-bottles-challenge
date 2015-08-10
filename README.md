@@ -25,7 +25,12 @@ We're going to model someone singing this song by writing a method which produce
 The verses of this song are all very similar—at least, until there's only one bottle of beer on the wall.  As we can imagine, this challenge deals with handling repetition.  
 
  
-##Releases
+## Releases
+### Pre-release:  Provided Files
+We'll be writing our `bottle_song` method in the file `bottle_song.rb`.  Remember, our method will return the lyrics of the song, dependent upon the number passed to the method.
+
+If we want to see the text printed to the command line, we can run the file `runner.rb`, which calls the method and prints out the return value.
+
 
 ###Release 0 : Sing it, any number of times
 
