@@ -54,5 +54,6 @@ What other improvements can we make? Let's try to find at least three.
 If our method uses an iterative solution—maybe a form of looping like `while`, `until`, etc.—we can update our method to use [recursion](http://en.wikipedia.org/wiki/Recursion_(computer_science)). The recursive version of the `bottle_song_lyrics` method would have the same output as our iterative solution, but it would have a different implementation.
 
 
-##Resources
+## Conclusion
+99 Bottles of Beer is a very repetitive song.  The lyrics are repeated almost exactly the same over and over and over ... Except for a few cases which need to be treated uniquely.  Special cases can lead to code that is a mess of hard-to-read conditional statements, and we should be deliberate to handle special cases in an elegant, readable manner.
 
