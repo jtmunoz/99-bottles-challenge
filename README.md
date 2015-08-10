@@ -50,14 +50,9 @@ Now that we have working code, it's time to refactor and DRY it up.  Consider th
 What other improvements can we make? Let's try to find at least three.
 
 
-###Release 2 :  Sing it, recursively (Optional)
+### Release 2: Write the Lyrics Recursively (Optional)
+If our method uses an iterative solution—maybe a form of looping like `while`, `until`, etc.—we can update our method to use [recursion](http://en.wikipedia.org/wiki/Recursion_(computer_science)). The recursive version of the `bottle_song_lyrics` method would have the same output as our iterative solution, but it would have a different implementation.
 
-Write a **recursive** version of `bottle_song_lyrics` that has the same output as the iterative `bottle_song_lyrics`.
-
-
-<!-- ##Optimize Your Learning  -->
 
 ##Resources
 
-* Looping: [Integer#downto](http://www.ruby-doc.org/core-1.9.3/Integer.html#method-i-downto)
-* [Recursion](http://en.wikipedia.org/wiki/Recursion_(computer_science))
