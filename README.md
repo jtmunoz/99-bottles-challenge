@@ -32,16 +32,12 @@ We'll be writing our `bottle_song_lyrics` method in the file `bottle_song_lyrics
 If we want to see the text printed to the command line, we can run the file `runner.rb`, which calls the method and prints out the return value.
 
 
-###Release 0 : Sing it, any number of times
+### Release 0: Lyrics for Any Number of Bottles
+Let's define the body of our `bottle_song_lyrics` method.  The method takes as its input a positive integer that represents the number of bottles at the start of the song; we could start our song with 1 bottle, 99 bottles, or even 500 bottles.  The method returns the lyrics to the whole song as a `String` object.
 
-Write a method `bottle_song_lyrics` which takes as its input a positive integer `n` representing the number of starting bottles in the song.  Pick a reasonable format and print out all the lines to the song.
+How can we know that our method is operating as we expect?  Do we have tests?
 
-For example, `bottle_song_lyrics(500)` starts with the stanza
 
-```text
-500 bottles of beer on the wall, 500 bottles of beer.
-Take one down, pass it around, 499 bottles of beer on the wall!
-```
 ###Release 1 : Refactor
 
 Now that you have working code, it's time to refactor and DRY it up.  Consider the following:
